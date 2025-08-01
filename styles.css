@@ -277,3 +277,12 @@ h1 {
 .task-btn:hover {
     transform: scale(1.1);
 }
+@media (max-width: 500px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .filters {
+        flex-direction: column;
+    }
+}
